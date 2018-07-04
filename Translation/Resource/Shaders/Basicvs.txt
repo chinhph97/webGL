@@ -1,0 +1,11 @@
+attribute vec4 a_translation;
+attribute vec3 a_position;
+attribute vec4 a_color;
+varying vec4 v_color;
+void main()
+{
+	vec4 positionL = vec4(a_position, 1.0);
+	gl_Position = positionL+a_translation;
+	v_color=a_color;
+}
+   

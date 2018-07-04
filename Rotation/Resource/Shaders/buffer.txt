@@ -1,0 +1,7 @@
+	//glGenBuffers(1, &vertex_buffer);
+	//glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
+	//glBufferData(GL_ARRAY_BUFFER, sizeof(vertex) * sizeof(float), vertex, GL_STATIC_DRAW);
+
+	//glGenBuffers(1, &indices_buffer);
+	//glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indices_buffer);
+	//glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices) * sizeof(int), indices, GL_STATIC_DRAW);
